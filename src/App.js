@@ -1,10 +1,12 @@
-
+import HeaderComp from "./components/header/Header";
+import ArticleComp from "./components/article/Article";
 
 const App = () => {
   return (
     <>
-      <p>Hello world2</p>
-    </>  
+      <HeaderComp />
+      <ArticleComp />
+    </>
   );
 }
 
